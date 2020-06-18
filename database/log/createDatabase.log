@@ -1,0 +1,10 @@
+MongoDB shell version v4.2.5
+connecting to: mongodb://localhost:27017/wikidroneDB?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("2545590a-6329-4096-9f22-dd78627457de") }
+MongoDB server version: 4.2.5
+2020-04-12T09:26:22.389+0200 E  QUERY    [js] uncaught exception: Error: couldn't add user: User "devwikidrone@wikidroneDB" already exists :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.createUser@src/mongo/shell/db.js:1370:11
+@../javascript/createDatabase.js:1:1
+2020-04-12T09:26:22.389+0200 F  -        [main] failed to load: ../javascript/createDatabase.js
+2020-04-12T09:26:22.389+0200 E  -        [main] exiting with code -3

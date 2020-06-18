@@ -1,0 +1,4 @@
+MongoDB shell version v4.2.5
+connecting to: mongodb://localhost:27017/wikidroneDB?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("4f20af34-d40f-49d2-b7cf-cae4948076ef") }
+MongoDB server version: 4.2.5
